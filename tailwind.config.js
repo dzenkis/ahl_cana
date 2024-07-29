@@ -83,6 +83,10 @@ module.exports = {
         center: true,
         padding: "20px",
       },
+      margin: {
+        6.5: "6.5rem",
+        20.5: "20.5rem",
+      },
       zIndex: {
         '100': '100',
         "200":"200",
@@ -92,6 +96,7 @@ module.exports = {
         sm:"500px",
         lg:"968px",
         xl:"1200px",
+        xxl:"1280px",
         '3xl': '1743px',
   
       },
@@ -100,6 +105,7 @@ module.exports = {
       },
       padding: {
         '4.5': '4.5rem',
+        "19": "19rem",
       },
       height: {
         '7.5': '7.5rem',
