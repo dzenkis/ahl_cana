@@ -349,7 +349,7 @@
                     <div class="flex gap-2 items-center">
     
                       <div class="">
-                        <button class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-5 rounded-md">
+                        <button id="openOverlay3" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-5 rounded-md">
                           +
                         </button>
                       </div>
@@ -477,7 +477,7 @@
                     <div class="flex gap-2 items-center">
     
                       <div class="">
-                        <button class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-5 rounded-md">
+                        <button id="openOverlay3" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-5 rounded-md">
                           +
                         </button>
                       </div>
@@ -2537,6 +2537,210 @@
   </div>
   <!-- overlay end -->
 
+
+  <div id="overlay3" class="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center hidden z-100 overflow-y-auto">
+    <div class="bg-white rounded-xl shadow-lg w-11/12 max-w-6xl p-6 border-table-1 border-4">
+      <div class="flex justify-evenly xl:justify-between items-start pb-4 flex-wrap gap-8 xl:gap-4">
+        <button id="closeOverlay3" class="flex gap-2 items-center">
+          <span class="text-white bg-red-700 px-1.5 rounded-full">&#10006;</span>
+          <div class="text-red-500 font-bold">Zrušiť udalosť</div>
+        </button>
+
+        <div class="flex flex-col gap-6">
+          <h2 class="text-sm text-gray-500 font-bold">Typ udalosti</h2>
+          <h2 class="text-xl font-bold">TREST</h2>
+        </div>
+
+        <div class="flex flex-col gap-4">
+          <h2 class="text-sm text-gray-500 font-bold">Udalosť pre tím</h2>
+          <div class="flex items-center gap-4">
+            <img src="../assets/images/slanec.png" alt="" class="w-12">
+            <h2 class="text-xl font-bold">HC KLIVENT SLANEC</h2>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-6">
+          <h2 class="text-sm text-gray-500 font-bold">Časť zápasu</h2>
+          <h2 class="text-xl font-bold">1. tretina</h2>
+        </div>
+        <button class="bg-yellow-300 py-1 px-4 rounded">Nahrať udalosť</button>
+      </div>
+
+      <div class="w-full h-px bg-gray-300 my-4"></div>
+
+      <div class="flex justify-center xxl:justify-between gap-4 mb-4 flex-wrap">
+        <div class="flex flex-col justify-between w-full xl:w-auto">
+          <div class="flex flex-row gap-6 xl:gap-20 justify-center flex-wrap">
+            <div class="w-36">
+                <label class="block font-bold">Čas - minúty</label>
+                <div class="grid grid-cols-3 gap-2 mt-2">
+                  
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">14</button>
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">13</button>
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">12</button>
+
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">11</button>
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">10</button>
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">9</button>
+
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">8</button>
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">7</button>
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">6</button>
+
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">5</button>
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">4</button>
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">3</button>
+
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">2</button>
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">1</button>
+                    <button class="bg-table-1 text-white py-2 rounded hover:bg-yellow-300">0</button>
+                    
+                </div>
+            </div>
+            <div class="w-96">
+                <label class="block font-bold">Čas - sekundy</label>
+                <div class="grid grid-cols-10 gap-2 mt-2">
+
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">59</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">58</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">57</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">56</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">55</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">54</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">53</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">52</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">51</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">50</button>
+                    
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">49</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">48</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">47</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">46</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">45</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">44</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">43</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">42</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">41</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">40</button>
+
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">39</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">38</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">37</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">36</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">35</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">34</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">33</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">32</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">31</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">30</button>
+
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">29</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">28</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">27</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">26</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">25</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">24</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">23</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">22</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">21</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">20</button>
+
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">19</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">18</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">17</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">16</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">15</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">14</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">13</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">12</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">11</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">10</button>
+
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">09</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">08</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">07</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">06</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">05</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">04</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">03</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">02</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">01</button>
+                    <button class="bg-cyan-300 text-white py-2 rounded hover:bg-yellow-300">00</button>
+
+                </div>
+            </div>
+          </div>
+
+          <div class="w-full h-px bg-gray-300 my-4"></div>
+
+          <div class="flex flex-col items-start justify-center md:justify-between gap-4">
+
+            <div class="flex flex-col md:flex-row items-center justify-center md:justify-between gap-4">
+              <h2 class="text-gray-500 font-bold text-center xl:text-left">Typ trestu</h2>
+
+              <div class="flex flex-row gap-4">
+                <input type="text" placeholder="Trest" class="w-full px-4 py-2 rounded border border-gray-300">
+                <input type="text" placeholder="Čas" class="w-full px-4 py-2 rounded border border-gray-300">
+              </div>
+            </div>
+
+            <h2 class="text-gray-500 font-bold text-center xl:text-left">Najčastejšie tresty</h2>
+            <div class="flex flex-wrap items-center gap-4 max-w-xl">
+
+							<button class="rounded-md text-sm py-2 px-4 text-center font-bold text-white bg-table-1">Hákovanie</button>
+              <button class="rounded-md text-sm py-2 px-4 text-center font-bold text-white bg-table-1">Držanie protihráča</button>
+              <button class="rounded-md text-sm py-2 px-4 text-center font-bold text-white bg-table-1">Napadnutie</button>
+              <button class="rounded-md text-sm py-2 px-4 text-center font-bold text-white bg-table-1">Hrubosť</button>
+              <button class="rounded-md text-sm py-2 px-4 text-center font-bold text-white bg-table-1">Faul Kolenom</button>
+              <button class="rounded-md text-sm py-2 px-4 text-center font-bold text-white bg-table-1">Nedovolené bránenie v hre</button>
+
+						</div>
+          </div>
+        </div>
+          <div>
+              <label class="block font-bold">Súpiska súpera</label>
+              <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xxl:grid-cols-2 gap-2 mt-2">
+                
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Šaňo Hulákač</button>
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Peter Petrovský</button>
+
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Pišta Marienčik</button>
+
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Filomén Kalejdoskop</button>
+
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Kevin Hajzelhof</button>
+
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Kevin Hajzelhof</button>
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Kevin Hajzelhof</button>
+
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Adam Adamkovič</button>
+                  <button class="border border-table-1 rounded-lg py-1 px-5 text-left text-sm btn">#39 Filomén Kalejdoskop</button>
+                  
+              </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- overlay end -->
   
   <script>
     document.querySelectorAll('.btn').forEach(button => {
