@@ -2492,8 +2492,16 @@ select {
     flex-direction: row;
   }
 
+  .xl\:items-start {
+    align-items: flex-start;
+  }
+
   .xl\:items-center {
     align-items: center;
+  }
+
+  .xl\:justify-start {
+    justify-content: flex-start;
   }
 
   .xl\:justify-end {
